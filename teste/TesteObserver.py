@@ -1,8 +1,8 @@
 import unittest
 from io import StringIO
 from unittest.mock import patch
-from scr.Observador import TotalWordObserver, EvenLengthWordObserver, CaptalizedWordObserver
-from scr.Observavel import WordCounter
+from src.Observador import TotalWordObserver, EvenLengthWordObserver, CaptalizedWordObserver
+from src.Observavel import WordCounter
 
 class TestWordCounter(unittest.TestCase):
     def setUp(self):
