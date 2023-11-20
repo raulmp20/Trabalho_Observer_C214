@@ -36,5 +36,5 @@ class TestWordCounter(unittest.TestCase):
             self.assertEqual(mock_stdout.getvalue(), expected_output)
 
 
-if _name_ == '_main_':
+if __name__ == '_main_':
     unittest.main()
