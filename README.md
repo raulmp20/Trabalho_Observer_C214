@@ -1,4 +1,4 @@
-# Trabalho_Observer_C214
+# Trabalho_Observer_C214_DanielaFaria_RaulMoreno
 
 Neste programa, uma frase, fornecida pelo usuario, é quebrada em palavras, utilizando o padrão Observer. Com isso, ela conta as palavras de acordo com os seguintes critérios:
 
