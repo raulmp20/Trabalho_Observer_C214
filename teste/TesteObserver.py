@@ -1,4 +1,10 @@
 import unittest
+
+import sys
+import os
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'src'))
+
 from io import StringIO
 from unittest.mock import patch
 from src.Observador import TotalWordObserver, EvenLengthWordObserver, CaptalizedWordObserver
@@ -36,5 +42,5 @@ class TestWordCounter(unittest.TestCase):
             self.assertEqual(mock_stdout.getvalue(), expected_output)
 
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     unittest.main()

@@ -2,7 +2,7 @@ from typing import List, Callable
 
 # Classe do assunto Observável
 class WordCounter:
-    def _init_(self):
+    def __init__(self):
         self.observers = []
         self.world_list = []
 
